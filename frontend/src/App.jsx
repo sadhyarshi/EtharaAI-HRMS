@@ -120,6 +120,7 @@ export default function App() {
       await delay(1000);
       await createEmployee(payload);
       await loadEmployees();
+      await loadSummary();
     } catch (error) {
       setEmployeesError(error.message);
       throw error;
@@ -189,10 +190,10 @@ export default function App() {
   return (
     <div className="app-shell">
       <header className="hero">
-        <p className="hero__eyebrow">HRMS-LITE</p>
+        <p className="hero__eyebrow">Human Resource Management</p>
         <h1>Ethara HRMS Lite</h1>
         <p className="hero__subtext">
-          Efficient employee management and attendance tracking for admins
+          Streamlined workforce management and attendance tracking for admin.
         </p>
       </header>
 
