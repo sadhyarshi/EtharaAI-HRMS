@@ -60,7 +60,7 @@ The system is split into two parts:
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/sadhyarshi/HRMS-lite.git
+git clone https://github.com/sadhyarshi/EtharaAI-HRMS
 ```
 
 ---
