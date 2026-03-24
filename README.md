@@ -44,8 +44,6 @@ The system is split into two parts:
 |------------|---------|
 | React 18 | UI library |
 | Vite | Build tool and dev server |
-| Tailwind CSS | Utility-first styling |
-| Axios | HTTP client for API calls |
 
 
 ## Getting Started
